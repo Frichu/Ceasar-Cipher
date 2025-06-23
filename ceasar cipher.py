@@ -30,32 +30,6 @@ ceasar(start_text=text, shift_amount=shift, cipher_direction=direction)
 
 
 
-#def encrypt(plain_text, shift_amount):
-    #create an empty string
-#   cipher_text = ""
-#  for letter in plain_text:
-#     position = alphabet.index(letter)
-#        new_position = position + shift_amount
-#        new_letter = alphabet[new_position]
-#       cipher_text += new_letter
-#   print(f"the encoded text is {cipher_text}")
-#shift each letter of the text 'backward'
-
-#def decrypt(cipher_text, shift_amount):
-#   plain_text = ""
-#   for letter in cipher_text:
-#       position = alphabet.index(letter)
-#       new_postion = position - shift_amount
-#       plain_text += alphabet[new_postion]
-#    print(f"the decode text is {plain_text}")
-
-#check if the user is encrypting or decrypting
-#if direction == "encode":
-#    encrypt(plain_text=text, shift_amount=shift)
-#elif direction == "decode":
-#    decrypt(cipher_text=text, shift_amount=shift)
-
-
 
 
 
